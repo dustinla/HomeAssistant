@@ -1,6 +1,6 @@
 blueprint:
   name: AL Advanced Custom Motion Sensor
-  description: "This motion sensor is based on several ideas from other blueprints (https://github.com/brigger/HomeAssistant_Blueprints/blob/5bb7521cb9fe25ca9d34a408bf66c6fb5415ea6a/advanced_custom_motion_sensor.yaml),
+  description: "This motion sensor is based on several ideas from other blueprints (https://github.com/brigger/HomeAssistant_Blueprints/blob/master/advanced_custom_motion_sensor.yaml),
     and adding my own customizations.\n\n \n\n Inputs and actions are:\n - Turn on
     lights or scenes when motion is detected. The trigger can be a motion detector
     or anything that switches between ON and OFF. You can use several motion detectors.\n
@@ -14,7 +14,7 @@ blueprint:
     if an optional entity is in desired state\n
     - add disable manuel control of light for Adapting Lightning Integration\n"
   domain: automation
-  source_url: https://github.com/brigger/HomeAssistant_Blueprints/blob/5bb7521cb9fe25ca9d34a408bf66c6fb5415ea6a/advanced_custom_motion_sensor.yaml
+  source_url: https://github.com/dustinla/HomeAssistant/blob/main/advanced_custom_motion_sensor_adapting_lightning.yaml
   input:
     motion_entity:
       name: Motion Sensor
